@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>XXGKStaticInfoForm</class>
+ <widget class="QWidget" name="XXGKStaticInfoForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1012</width>
+    <height>551</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>信息公开静态信息检测</string>
+  </property>
+  <widget class="QLineEdit" name="ProfileLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>106</x>
+     <y>58</y>
+     <width>731</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TipInfoLbl">
+   <property name="geometry">
+    <rect>
+     <x>26</x>
+     <y>98</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>静态页面配置信息：</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="ScanTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>26</x>
+     <y>118</y>
+     <width>961</width>
+     <height>131</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="DoScanProfileBtn">
+   <property name="geometry">
+    <rect>
+     <x>856</x>
+     <y>48</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>加载配置文件</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ProfileLbl">
+   <property name="geometry">
+    <rect>
+     <x>26</x>
+     <y>58</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>配置文件：</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="DataTableView">
+   <property name="geometry">
+    <rect>
+     <x>26</x>
+     <y>260</y>
+     <width>961</width>
+     <height>201</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="LoadDataTableBtn">
+   <property name="geometry">
+    <rect>
+     <x>834</x>
+     <y>472</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>导入配置文件到表格中</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
