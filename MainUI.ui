@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1007</width>
+    <height>684</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>瑞金政府网检测</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QMdiArea" name="mdiArea">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1007</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>政府信息公开检测模块</string>
+    </property>
+    <addaction name="actionBMGKIndex"/>
+    <addaction name="actionBMGaiKuang"/>
+    <addaction name="actionBMGGGS"/>
+    <addaction name="actionXXGKIndexColumn"/>
+    <addaction name="actionXXGKStaticInfo"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>政府网站检测模块</string>
+    </property>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionBMGKIndex">
+   <property name="text">
+    <string>部门首页</string>
+   </property>
+  </action>
+  <action name="actionBMGaiKuang">
+   <property name="text">
+    <string>部门概况</string>
+   </property>
+  </action>
+  <action name="actionXXGKIndexColumn">
+   <property name="text">
+    <string>信息公开首页栏目</string>
+   </property>
+  </action>
+  <action name="actionXXGKStaticInfo">
+   <property name="text">
+    <string>静态信息检测表</string>
+   </property>
+  </action>
+  <action name="actionBMGGGS">
+   <property name="text">
+    <string>部门公告公示</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
