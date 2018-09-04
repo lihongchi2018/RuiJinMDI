@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>XXGKIndexColumnForm</class>
+ <widget class="QWidget" name="XXGKIndexColumnForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1006</width>
+    <height>523</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>信息公开首页栏目</string>
+  </property>
+  <widget class="QLineEdit" name="ProfileLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>106</x>
+     <y>58</y>
+     <width>731</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="JCBGLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>96</x>
+     <y>448</y>
+     <width>751</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TipInfoLbl">
+   <property name="geometry">
+    <rect>
+     <x>26</x>
+     <y>98</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>检测过程提示信息：</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="ScanTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>26</x>
+     <y>118</y>
+     <width>961</width>
+     <height>311</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="DoScanProfileBtn">
+   <property name="geometry">
+    <rect>
+     <x>856</x>
+     <y>48</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>执行配置文件检测</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ProfileLbl">
+   <property name="geometry">
+    <rect>
+     <x>26</x>
+     <y>58</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>配置文件：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ReportLbl">
+   <property name="geometry">
+    <rect>
+     <x>26</x>
+     <y>448</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>检测报告：</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ViewReportBtn">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>440</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>查看检测报告</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
